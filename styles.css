@@ -9,6 +9,12 @@ div.block {
     float: left;
     position:relative;
 }
+@media screen and (max-width:767px) {
+    div.block {
+        width: 100%;
+        position:relative;
+    }
+}
 h1 {
     text-align: center;
 }
